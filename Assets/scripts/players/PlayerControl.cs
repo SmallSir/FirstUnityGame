@@ -7,7 +7,6 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D rb; // 获取角色的刚体信息变量
     public float speed; // 横向移动速度
     public float jumpForcs; // 竖向(跳起)的力
-    
 
     [Header("Ground Check")]
     public Transform groundCheck;
