@@ -1,0 +1,4 @@
+repository "project_test@ssl://thesta1ker@sh02-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/280690956" 
+     
