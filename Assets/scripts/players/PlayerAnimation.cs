@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private Animator anim;
-    private Rigidbody2D rb;
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-    }
+	// Start is called before the first frame update
+	private Animator anim;
+	private Rigidbody2D rb;
+    private PlayerControl controller;
+	void Start()
+	{
+		anim = GetComponent<Animator>();
+		rb = GetComponent<Rigidbody2D>();
+        controller = GetComponent<PlayerControl>();
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        float velocity_x = rb.velocity.x;
-        if (velocity_x < 0) {
-            velocity_x = -velocity_x;
-        }
-        anim.SetFloat("speed", velocity_x);
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		anim.SetFloat("speed", Mathf.Abs(rb.velocity.x)); // 获取横向速度的绝对值
+        anim.SetBool("ground", controller.isGround);
+        anim.SetBool("jump", controller.isJump);
+        anim.SetFloat("velocityY", rb.velocity.y);
+	}
 }
