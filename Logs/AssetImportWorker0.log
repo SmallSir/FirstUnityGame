@@ -1549,3 +1549,1549 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003423 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1714ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (1416ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 286.6 MB.
+System memory in use after: 286.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4269.
+Total: 5.446387 ms (FindLiveObjects: 0.658492 ms CreateObjectMapping: 0.473821 ms MarkObjects: 4.265148 ms  DeleteObjects: 0.047582 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2150.918787 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/1.png
+  artifactKey: Guid(554ce1976d5878841abb0b2038135f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/1.png using Guid(554ce1976d5878841abb0b2038135f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561e6c163329cc2dbc4b1cfc09f8e35a') in 0.087035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/9.png
+  artifactKey: Guid(1df2a7218d3eeb047938a5811984aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/9.png using Guid(1df2a7218d3eeb047938a5811984aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b5328bc99be4edfccc2dc3ed64b7af') in 0.012501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/6.png
+  artifactKey: Guid(6ef489d7443808b47b875a5f67fe70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/6.png using Guid(6ef489d7443808b47b875a5f67fe70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b518ac782f744159cc41a2c5b3a800d7') in 0.016994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/3.png
+  artifactKey: Guid(f039e50998073df46b4c01b273266812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/3.png using Guid(f039e50998073df46b4c01b273266812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772f8be05c2b2890e6457fe1f9508b0a') in 0.012990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/7.png
+  artifactKey: Guid(f5d5af9387fc3494fae5ea7e00aba22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/7.png using Guid(f5d5af9387fc3494fae5ea7e00aba22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4650779fa0a335c3aca90b3bf1ce20dd') in 0.013840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/10.png
+  artifactKey: Guid(9de7c6613cc2af444848e76edf39ce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/10.png using Guid(9de7c6613cc2af444848e76edf39ce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b1b6b4c9536bd346782728ef14fddd') in 0.013956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/4.png
+  artifactKey: Guid(ade053b7e836b27428e61f55353595e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/4.png using Guid(ade053b7e836b27428e61f55353595e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b211bd54cd24d1b99a4cd0d2160159a6') in 0.011733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/5.png
+  artifactKey: Guid(995ff1b2a0c67b84f84170855ca8bf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/5.png using Guid(995ff1b2a0c67b84f84170855ca8bf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c5564d286aae3332cf98c3caa9c2bf') in 0.015068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/2.png
+  artifactKey: Guid(1fbc5191a6cbc2c46ab1fbdbd5bfabd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/2.png using Guid(1fbc5191a6cbc2c46ab1fbdbd5bfabd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898a7197de6480ea1819b305f6c6ca78') in 0.033417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/8.png
+  artifactKey: Guid(28d39d85298cd5842aeb099a38f48441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/2-Bomb On/8.png using Guid(28d39d85298cd5842aeb099a38f48441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76bd37be95ea0dccbe505de239230b') in 0.033170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.300946 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/1-Bomb Off/1.png
+  artifactKey: Guid(7ce8e42060744e84398399b7e8933259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/1-Bomb Off/1.png using Guid(7ce8e42060744e84398399b7e8933259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78db89f37f95212843a7cc860af525bd') in 0.010254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.949542 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/1.png
+  artifactKey: Guid(4014ea8fbc727ef448704c1ebe5839aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/1.png using Guid(4014ea8fbc727ef448704c1ebe5839aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415eecba9a98704576e297a09d15200a') in 0.014411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/4.png
+  artifactKey: Guid(17a64d9036931eb419caf22d985ad24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/4.png using Guid(17a64d9036931eb419caf22d985ad24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3d3bc9d1f1eda828b96d5d336cb6a7') in 0.034528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/6.png
+  artifactKey: Guid(e1cfb17ca673bf44484c32aeca6268c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/6.png using Guid(e1cfb17ca673bf44484c32aeca6268c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6415329305bccf0e34d0bf68333ebe') in 0.013313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/9.png
+  artifactKey: Guid(0141ab62b8a0be841acb7381c7e38453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/9.png using Guid(0141ab62b8a0be841acb7381c7e38453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888756df89b808a49fb8c9d8ddcfbe67') in 0.011169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/8.png
+  artifactKey: Guid(ae13556a2167aae40abae28f89d8c536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/8.png using Guid(ae13556a2167aae40abae28f89d8c536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd40bd8177171a442a872150a6771ffb') in 0.011348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/3.png
+  artifactKey: Guid(79fcab8749de98445a351e493e037ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/3.png using Guid(79fcab8749de98445a351e493e037ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9dcf6ecad520f3fac804912bea67b3') in 0.014015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/2.png
+  artifactKey: Guid(be53e35c1e687854da1c3f5354a72850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/2.png using Guid(be53e35c1e687854da1c3f5354a72850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3546603970857b87821b5cdf09368b76') in 0.013333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/7.png
+  artifactKey: Guid(5d88fbe39e3b8774285b4c7198939db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/7.png using Guid(5d88fbe39e3b8774285b4c7198939db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7067e7fc315c10e8ae73e09a5d622e') in 0.017408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/5.png
+  artifactKey: Guid(48b97e83041f8cb40ac5778dda133e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pirate Bomb/Sprites/7-Objects/1-BOMB/3-Explotion/5.png using Guid(48b97e83041f8cb40ac5778dda133e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fbddc56a02e1832cb7082210e9b285') in 0.015742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.097372 seconds.
+  path: Assets/Animation/bomb/bomb_explotion.anim
+  artifactKey: Guid(d01f374ba962c4f45a1c495b9153b5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/bomb/bomb_explotion.anim using Guid(d01f374ba962c4f45a1c495b9153b5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0153774b39a3efd244bce5abea53b299') in 0.006189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.027349 seconds.
+  path: Assets/Animation/bomb/bomb_off.anim
+  artifactKey: Guid(8dce5958831174358a95fa166812fc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/bomb/bomb_off.anim using Guid(8dce5958831174358a95fa166812fc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15bba0947c8ca225b6ceceba1e0dec9') in 0.002197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819071 seconds.
+  path: Assets/Animation/bomb/bomb_on.anim
+  artifactKey: Guid(50612096c1a31437a9cb31032813a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/bomb/bomb_on.anim using Guid(50612096c1a31437a9cb31032813a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02eea7d670a5fc3c40057005687b65e') in 0.003423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.435839 seconds.
+  path: Assets/Animation/bomb/Bomb.controller
+  artifactKey: Guid(421f5796839d74183a4badc96244ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/bomb/Bomb.controller using Guid(421f5796839d74183a4badc96244ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e790bb66922c7ec4c84542b1649e4f') in 0.008668 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1799ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1460ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (611ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.9 MB.
+System memory in use after: 297.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4575.
+Total: 3.699706 ms (FindLiveObjects: 0.299499 ms CreateObjectMapping: 0.163917 ms MarkObjects: 3.209712 ms  DeleteObjects: 0.025400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1084ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.2 MB.
+System memory in use after: 296.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4578.
+Total: 3.854963 ms (FindLiveObjects: 0.280162 ms CreateObjectMapping: 0.152686 ms MarkObjects: 3.401941 ms  DeleteObjects: 0.019315 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 251.689167 seconds.
+  path: Assets/scripts/bomb
+  artifactKey: Guid(c4f0062b4d970404bb54eaaff23d1dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/bomb using Guid(c4f0062b4d970404bb54eaaff23d1dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0590517cc062e120b195fe1dfc9213c') in 0.007012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.106363 seconds.
+  path: Assets/scripts/bomb/bomb.cs
+  artifactKey: Guid(0c40134aaf6b7483692960969647bb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/bomb/bomb.cs using Guid(0c40134aaf6b7483692960969647bb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a85275b250e20ddb18063cbf1cf72e') in 0.012932 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004714 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1565ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.5 MB.
+System memory in use after: 296.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4582.
+Total: 4.428350 ms (FindLiveObjects: 0.321016 ms CreateObjectMapping: 0.182651 ms MarkObjects: 3.903198 ms  DeleteObjects: 0.020518 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004290 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1698ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1405ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.7 MB.
+System memory in use after: 296.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4585.
+Total: 5.244212 ms (FindLiveObjects: 0.348550 ms CreateObjectMapping: 0.196233 ms MarkObjects: 4.664631 ms  DeleteObjects: 0.033663 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004380 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1563ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1290ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (545ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.0 MB.
+System memory in use after: 297.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4588.
+Total: 4.680600 ms (FindLiveObjects: 0.384046 ms CreateObjectMapping: 0.258405 ms MarkObjects: 4.014759 ms  DeleteObjects: 0.022217 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004635 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.602 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (561ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.2 MB.
+System memory in use after: 297.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4591.
+Total: 3.549649 ms (FindLiveObjects: 0.300250 ms CreateObjectMapping: 0.177343 ms MarkObjects: 3.054798 ms  DeleteObjects: 0.016262 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004720 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1660ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1375ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (625ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.5 MB.
+System memory in use after: 297.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4594.
+Total: 4.086880 ms (FindLiveObjects: 0.326565 ms CreateObjectMapping: 0.196688 ms MarkObjects: 3.545154 ms  DeleteObjects: 0.017480 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1500ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (624ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.7 MB.
+System memory in use after: 297.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4597.
+Total: 4.434862 ms (FindLiveObjects: 0.371290 ms CreateObjectMapping: 0.226637 ms MarkObjects: 3.813284 ms  DeleteObjects: 0.022564 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1268ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 297.9 MB.
+System memory in use after: 298.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4600.
+Total: 4.254134 ms (FindLiveObjects: 0.333343 ms CreateObjectMapping: 0.193509 ms MarkObjects: 3.705981 ms  DeleteObjects: 0.020267 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004997 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1883ms)
+		BeginReloadAssembly (335ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (186ms)
+		EndReloadAssembly (1461ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (625ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.1 MB.
+System memory in use after: 298.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4603.
+Total: 4.062767 ms (FindLiveObjects: 0.309149 ms CreateObjectMapping: 0.151671 ms MarkObjects: 3.582858 ms  DeleteObjects: 0.018146 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1555ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (1290ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (551ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.4 MB.
+System memory in use after: 298.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4606.
+Total: 4.351567 ms (FindLiveObjects: 0.325407 ms CreateObjectMapping: 0.179550 ms MarkObjects: 3.812693 ms  DeleteObjects: 0.032767 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004204 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1561ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1294ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (529ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.6 MB.
+System memory in use after: 298.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4609.
+Total: 3.885686 ms (FindLiveObjects: 0.332270 ms CreateObjectMapping: 0.187305 ms MarkObjects: 3.335366 ms  DeleteObjects: 0.029855 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10307.047020 seconds.
+  path: Assets/prefabs/Bomb.prefab
+  artifactKey: Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bomb.prefab using Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:638)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:594)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:607)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '6f9e287872b54b1c409d3c43388b26d8') in 0.474276 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005830 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1738ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1444ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.2 MB.
+System memory in use after: 303.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4617.
+Total: 4.257729 ms (FindLiveObjects: 0.405398 ms CreateObjectMapping: 0.200696 ms MarkObjects: 3.629526 ms  DeleteObjects: 0.021028 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004752 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1331ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (567ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.5 MB.
+System memory in use after: 303.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4620.
+Total: 4.325822 ms (FindLiveObjects: 0.337922 ms CreateObjectMapping: 0.271819 ms MarkObjects: 3.695665 ms  DeleteObjects: 0.019454 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004824 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1706ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (1409ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (605ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.7 MB.
+System memory in use after: 303.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4623.
+Total: 4.552716 ms (FindLiveObjects: 0.334958 ms CreateObjectMapping: 0.193056 ms MarkObjects: 4.000466 ms  DeleteObjects: 0.023112 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1566ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1301ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (553ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 304.0 MB.
+System memory in use after: 304.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4626.
+Total: 4.406173 ms (FindLiveObjects: 0.349153 ms CreateObjectMapping: 0.195793 ms MarkObjects: 3.835989 ms  DeleteObjects: 0.023796 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1696ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1413ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 304.2 MB.
+System memory in use after: 304.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4629.
+Total: 4.412664 ms (FindLiveObjects: 0.462134 ms CreateObjectMapping: 0.255820 ms MarkObjects: 3.672450 ms  DeleteObjects: 0.021246 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1045.356713 seconds.
+  path: Assets/physics material/New Physics Material 2D.physicsMaterial2D
+  artifactKey: Guid(241a84ecf0bfd4cb1842cc8c858def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/physics material/New Physics Material 2D.physicsMaterial2D using Guid(241a84ecf0bfd4cb1842cc8c858def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6ecefa04a9841f909b7d6f8d359d02') in 0.222326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.621847 seconds.
+  path: Assets/physics material/Bounce.physicsMaterial2D
+  artifactKey: Guid(241a84ecf0bfd4cb1842cc8c858def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/physics material/Bounce.physicsMaterial2D using Guid(241a84ecf0bfd4cb1842cc8c858def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2117d5b6906fe1bbec8502a36bd549') in 0.003737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.146476 seconds.
+  path: Assets/prefabs/Bomb.prefab
+  artifactKey: Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bomb.prefab using Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:638)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:594)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:607)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c32115fe4a5dc82a8f50ae40667c7661') in 0.064518 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004892 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (576ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.7 MB.
+System memory in use after: 309.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4633.
+Total: 4.191429 ms (FindLiveObjects: 0.333326 ms CreateObjectMapping: 0.189946 ms MarkObjects: 3.646619 ms  DeleteObjects: 0.020077 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.551218 seconds.
+  path: Assets/prefabs/Bomb.prefab
+  artifactKey: Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bomb.prefab using Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:638)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:594)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:607)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b4ee8c2876c9df137d371352bfc0f3f5') in 0.070711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.341018 seconds.
+  path: Assets/prefabs/Bomb.prefab
+  artifactKey: Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bomb.prefab using Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:638)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:594)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:607)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'cecf6ae36d862019863263007b5fae41') in 0.009547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.716175 seconds.
+  path: Assets/prefabs/Bomb.prefab
+  artifactKey: Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bomb.prefab using Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:638)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:594)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:607)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '271a3e9e958882cc0b5c95bc6a9b6962') in 0.009471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.016280 seconds.
+  path: Assets/prefabs/Bomb.prefab
+  artifactKey: Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bomb.prefab using Guid(d9e2834f8d7234d4c9f502cba3dcc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:638)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bomb) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:594)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:607)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:101)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:95)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:677)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:889)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '35f95c450e86d7d762d3594bdb3d3f12') in 0.009151 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/qiuzhenhao/unity/FirstUnityGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1360ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (577ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.0 MB.
+System memory in use after: 309.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4637.
+Total: 4.650526 ms (FindLiveObjects: 0.323846 ms CreateObjectMapping: 0.172254 ms MarkObjects: 4.130433 ms  DeleteObjects: 0.022915 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

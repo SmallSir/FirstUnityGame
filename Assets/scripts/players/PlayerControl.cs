@@ -22,6 +22,11 @@ public class PlayerControl : MonoBehaviour
 	[Header("Jump FX")] // 查看特效情况
 	public GameObject jumpFX;
 	public GameObject landFX;
+
+    [Header("Attack Settings")]
+    public GameObject bombPrefab;
+    public float nextAttack = 0; // 炸弹计时器
+    public float attackRate; // 放下炸弹频率
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>(); // 获取刚体信息
@@ -47,6 +52,10 @@ public class PlayerControl : MonoBehaviour
 		{
 			canjump = true;
 		}
+
+        if(Input.GetKeyDown(KeyCode.J)) {
+            Attack();
+        }
 	}
 	// 因为不同设备每秒的帧数不同，update一般都是获取键盘上的输入, fixedupdate获取都是物理引擎的一些内容
 	void Movement() // 用户的移动
@@ -86,4 +95,15 @@ public class PlayerControl : MonoBehaviour
 			rb.gravityScale = 1; // 修改重力
 		}
 	}
+
+    public void Attack()
+    {
+        if(Time.time > nextAttack)
+        {
+            // 生成一个炸弹实例
+            Instantiate(bombPrefab, transform.position, bombPrefab.transform.rotation);
+            // 充值
+            nextAttack = Time.time + attackRate;
+        }
+    } 
 }
