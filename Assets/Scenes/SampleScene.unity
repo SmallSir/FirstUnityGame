@@ -184,7 +184,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!60 &144834740
 PolygonCollider2D:
@@ -288,7 +288,7 @@ MonoBehaviour:
   speed: 5
   jumpForcs: 5
   groundCheck: {fileID: 373210498}
-  checkRadius: 2
+  checkRadius: 444
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -297,6 +297,9 @@ MonoBehaviour:
   canjump: 0
   jumpFX: {fileID: 1487501610}
   landFX: {fileID: 454991740}
+  bombPrefab: {fileID: 7806531134599713318, guid: d9e2834f8d7234d4c9f502cba3dcc552, type: 3}
+  nextAttack: 0
+  attackRate: 2
 --- !u!95 &144834743
 Animator:
   serializedVersion: 3
@@ -6845,7 +6848,7 @@ GameObject:
   - component: {fileID: 454991744}
   - component: {fileID: 454991743}
   - component: {fileID: 454991742}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Land FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7238,7 +7241,7 @@ GameObject:
   - component: {fileID: 754644575}
   - component: {fileID: 754644577}
   - component: {fileID: 754644576}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}

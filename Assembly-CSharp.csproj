@@ -37,9 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/scripts/players/PlayerControl.cs" />
+     <Compile Include="Assets/scripts/bomb/bomb.cs" />
      <Compile Include="Assets/scripts/players/PlayerAnimation.cs" />
      <Compile Include="Assets/scripts/FX/jumpFx.cs" />
-     <Compile Include="Assets/scripts/bomb/bomb.cs" />
+     <Compile Include="Assets/scripts/enemy/Enemy.cs" />
+     <Compile Include="Assets/scripts/enemy/EnemyBaseState.cs" />
+     <Compile Include="Assets/scripts/enemy/cucumber.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.21f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
