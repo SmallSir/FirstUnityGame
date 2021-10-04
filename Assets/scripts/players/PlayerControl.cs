@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
+public class PlayerControl : MonoBehaviour, IDamageable
 {
 	private Rigidbody2D rb; // 获取角色的刚体信息变量
+	private Animator anim;
 	public float speed; // 横向移动速度
 	public float jumpForcs; // 竖向(跳起)的力
-
+	[Header("Player State")]
+	public float health;
+	public bool isDead = false;
 	[Header("Ground Check")]
 	public Transform groundCheck;
 	public float checkRadius; // 检测范围
@@ -30,16 +33,22 @@ public class PlayerControl : MonoBehaviour
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>(); // 获取刚体信息
+		anim = GetComponent<Animator>();
 	}
 
 	// Update is called once per frame
 	void Update() //  每一帧执行一次
 	{
+		anim.SetBool("dead", isDead);
+		if(isDead)
+			return;
 		CheckInput();
 	}
 
 	public void FixedUpdate() // 固定时间执行一次，差不多一秒左右
 	{
+		if(isDead)
+			rb.velocity = Vector2.zero;
 		PhysicsCheck();
 		Movement();
 		Jump();
@@ -105,5 +114,19 @@ public class PlayerControl : MonoBehaviour
             // 充值
             nextAttack = Time.time + attackRate;
         }
-    } 
+    }
+
+	public void GetHit(float damage)
+	{
+		if(!anim.GetCurrentAnimatorStateInfo(0).IsName("hit"))
+		{
+			health -= damage;
+			health = Mathf.Max(health, 0);
+			if(health == 0)
+			{
+				isDead = true;
+			}
+			anim.SetTrigger("hit");
+		}
+	}
 }

@@ -60,6 +60,9 @@ public class bomb : MonoBehaviour
 			{
 				item.GetComponent<bomb>().TurnOn();
 			}
+
+			if(item.CompareTag("Player"))
+				item.GetComponent<IDamageable>().GetHit(3);
 		}
         coll.enabled = true;
 	}

@@ -350,6 +350,7 @@
 "Assets/scripts/enemy/HitPoint.cs"
 "Assets/scripts/enemy/PatrolState.cs"
 "Assets/scripts/FX/jumpFx.cs"
+"Assets/scripts/IDamageable.cs"
 "Assets/scripts/players/PlayerAnimation.cs"
 "Assets/scripts/players/PlayerControl.cs"
 -langversion:8.0

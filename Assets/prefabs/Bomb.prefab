@@ -140,7 +140,7 @@ MonoBehaviour:
   radius: 1.37
   targetLayer:
     serializedVersion: 2
-    m_Bits: 896
+    m_Bits: 2944
 --- !u!50 &8160699601162758639
 Rigidbody2D:
   serializedVersion: 4

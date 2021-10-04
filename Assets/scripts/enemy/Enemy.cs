@@ -7,6 +7,10 @@ public class Enemy : MonoBehaviour
 	EnemyBaseState currentState;
 	public Animator anim;
 	public int animState;
+
+	[Header("Base State")]
+	public float health;
+	public bool isDead;
 	// Start is called before the first frame update
 	[Header("Movement")]
 	public float speed;
@@ -42,6 +46,9 @@ public class Enemy : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		anim.SetBool("isDead", isDead);
+		if(isDead)
+			return;
 		currentState.OnUpdate(this);
 		anim.SetInteger("state", animState);
 	}
