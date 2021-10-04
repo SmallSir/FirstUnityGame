@@ -7,20 +7,34 @@ public class AttackState : EnemyBaseState
     // Start is called before the first frame update
     public override void EnterState(Enemy enemy)
 	{
-		enemy.animState = 0;
-		enemy.SwitchPoint();
+		enemy.animState = 2;
+		enemy.targetPoint = enemy.attackList[0];
 	}
 
 	public override void OnUpdate(Enemy enemy)
 	{
-		if(Mathf.Abs(enemy.targetPoint.position.x - enemy.transform.position.x) < 0.01f)
-			enemy.SwitchPoint();
-		
-		// 检测当前动画使用的是否是idle
-		if(!enemy.anim.GetCurrentAnimatorStateInfo(0).IsName("idle"))
+		if (enemy.attackList.Count == 0)
 		{
-			enemy.animState = 1;
+			enemy.TransitionToState(enemy.patrolState);
 		}
+		if (enemy.attackList.Count >= 1)
+		{
+			float min = enemy.targetPoint.position.x - enemy.transform.position.x;
+			int index;
+			for(int i = 0; i < enemy.attackList.Count; i++)
+			{
+				if(Mathf.Abs(enemy.transform.position.x - enemy.attackList[i].position.x) < min)
+				{
+					index = i;
+					min = Mathf.Abs(enemy.transform.position.x - enemy.attackList[i].position.x);
+				}
+			}
+		}
+
+		if(enemy.targetPoint.CompareTag("Player"))
+			enemy.AttackAction();
+		else if(enemy.targetPoint.CompareTag("bomb"))
+			enemy.SkillAction();
 		enemy.MoveToTarget();
 	}
 }

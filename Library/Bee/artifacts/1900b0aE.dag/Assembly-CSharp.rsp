@@ -347,6 +347,7 @@
 "Assets/scripts/enemy/cucumber.cs"
 "Assets/scripts/enemy/Enemy.cs"
 "Assets/scripts/enemy/EnemyBaseState.cs"
+"Assets/scripts/enemy/HitPoint.cs"
 "Assets/scripts/enemy/PatrolState.cs"
 "Assets/scripts/FX/jumpFx.cs"
 "Assets/scripts/players/PlayerAnimation.cs"

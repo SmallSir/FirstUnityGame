@@ -10,4 +10,9 @@ public class cucumber : Enemy
 		base.Init();
 		rb = GetComponent<Rigidbody2D>();
 	}
+
+	public void SetBombOff()
+	{
+		targetPoint.GetComponent<bomb>()?.TurnOff();
+	}
 }

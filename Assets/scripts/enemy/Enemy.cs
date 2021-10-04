@@ -13,6 +13,12 @@ public class Enemy : MonoBehaviour
 	public Transform PointA;
 	public Transform PointB;
 	public Transform targetPoint;
+
+	[Header("Attack Setting")]
+	public float attackRate;
+	private float nextAttack = 0;
+	public float attackRange, skillRange;
+
 	public List<Transform> attackList = new List<Transform>();
 	// Start is called before the first frame update
 
@@ -48,12 +54,27 @@ public class Enemy : MonoBehaviour
 
 	public void AttackAction() // 攻击玩家、或者炸弹
 	{
-
+		if(Vector2.Distance(transform.position, targetPoint.position) < attackRange)
+		{
+			if(Time.time > nextAttack)
+			{
+				anim.SetTrigger("attack");
+				nextAttack = Time.time + attackRate;
+			}
+		}
 	}
 
 	public void SkillAction() // 技能攻击
 	{
-
+		if(Vector2.Distance(transform.position, targetPoint.position) < skillRange)
+		{
+			if(Time.time > nextAttack)
+			{
+				anim.SetTrigger("skill");
+				// 播放攻击动画
+				nextAttack = Time.time + attackRate;
+			}
+		}
 	}
 
 	public void FilpDirection() // 反转
